@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.LogIn"
+
+    >
+
+    <TextView
+        android:id="@+id/welcome_bac"
+        android:layout_width="199dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="88dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="129dp"
+        android:text="@string/welcome_bac"
+        android:textAppearance="@style/welcome_bac"
+        android:gravity="center_horizontal|top"
+        android:fontFamily="@font/montserrat"
+        />
+
+    <EditText
+        android:id="@+id/first_name"
+        android:layout_width="289dp"
+        android:layout_height="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="235dp"
+        android:background="@drawable/rectangle_2"
+
+        android:hint="First name"
+        android:fontFamily="@font/montserrat"
+        android:textSize="11sp"
+        android:gravity="center|center_horizontal"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="289dp"
+        android:layout_height="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="299dp"
+        android:background="@drawable/rectangle_2"
+
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:fontFamily="@font/montserrat"
+        android:textSize="11sp"
+        android:gravity="center|center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="289dp"
+        android:layout_height="46dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="427dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/montserrat"
+
+        android:text="@string/login"
+        android:textAppearance="@style/login"
+        android:gravity="center_horizontal|top"
+        />
+
+</FrameLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.TabBar"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="1dp"
+        android:background="@drawable/tab_bar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+
+        <View
+            android:id="@+id/ellipse_home"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="18.5dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/ellipse_tap_bar"
+            android:visibility="invisible"
+            />
+
+        <View
+            android:id="@+id/tab_home"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/tab_home" />
+
+
+        <View
+            android:id="@+id/ellipse_like"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="91.2dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/ellipse_tap_bar"
+            android:visibility="invisible"
+            />
+
+        <View
+            android:id="@+id/tab_like"
+            android:layout_width="18dp"
+            android:layout_height="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="102.2dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/tab_like"
+            />
+
+        <View
+            android:id="@+id/ellipse_basket"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="167.84dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/ellipse_tap_bar"
+            android:visibility="invisible"
+            />
+
+        <View
+            android:id="@+id/tab_basket"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="178.84dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/tab_basket"
+            />
+
+        <View
+            android:id="@+id/ellipse_msg"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="241.74dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/ellipse_tap_bar"
+            android:visibility="invisible"
+            />
+
+        <View
+            android:id="@+id/tab_msg"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="254.74dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/tab_msg"
+            />
+
+        <View
+            android:id="@+id/ellipse_profile"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="313dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/ellipse_tap_bar"
+            android:visibility="invisible"
+            />
+
+        <View
+            android:id="@+id/tab_profile"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="326dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/tab_profile"
+            />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/top_bar"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

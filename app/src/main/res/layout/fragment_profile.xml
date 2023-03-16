@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.TabBar">
+
+
+    <ImageButton
+        android:id="@+id/arrow_left"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/arrow_left"
+        android:clipToOutline="true" />
+
+    <TextView
+        android:id="@+id/profile"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="39dp"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center_horizontal|top"
+        android:text="@string/profile"
+        android:textAppearance="@style/profile" />
+
+    <View
+        android:id="@+id/ellipse_1"
+        android:layout_width="61.06dp"
+        android:layout_height="61.06dp"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/profile_image" />
+
+    <TextView
+        android:id="@+id/change_photo"
+        android:layout_width="69dp"
+        android:layout_height="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="153dp"
+        android:layout_marginTop="139dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/change_phot"
+        android:textAppearance="@style/change_phot" />
+
+    <TextView
+        android:id="@+id/satria_adhi"
+        android:layout_width="168dp"
+        android:layout_height="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="103dp"
+        android:layout_marginTop="166dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/satria_adhi"
+        android:textAppearance="@style/satria_adhi" />
+
+    <FrameLayout
+        android:id="@+id/upload_button"
+        android:layout_width="290dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="218dp"
+        android:background="#00000000">
+
+        <View
+            android:id="@+id/rectangle_9"
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/rectangle_9"
+            />
+
+        <TextView
+            android:id="@+id/upload_item"
+            android:layout_width="132dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="79dp"
+            android:layout_marginTop="11dp"
+            android:text="@string/upload_item"
+            android:textAppearance="@style/upload_item"
+            android:gravity="center_horizontal|top"
+            android:fontFamily="@font/montserrat"
+            />
+
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="52.5dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/share" />
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/trade_store_group"
+        android:layout_width="297.5dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="272dp"
+        android:background="#00000000">
+
+        <TextView
+            android:id="@+id/trade_store"
+            android:layout_width="80dp"
+            android:layout_height="18dp"
+
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="13dp"
+            android:gravity="center_vertical"
+
+            android:text="@string/trade_store"
+            android:textAppearance="@style/trade_store"
+            android:textSize="14sp" />
+
+
+        <View
+            android:id="@+id/ellipse_25"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+
+            android:background="@drawable/ellipse_25" />
+
+        <ImageView
+            android:id="@+id/ts"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/credit_card"
+            android:clipToOutline="true" />
+
+        <View
+            android:id="@+id/tsm"
+            android:layout_width="5.5dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="292dp"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/more"
+            android:foregroundGravity="center_vertical" />
+
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/payment_met_group"
+        android:layout_width="297.5dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="337dp"
+        android:background="#00000000">
+
+        <TextView
+            android:id="@+id/payment_met"
+            android:layout_width="124dp"
+            android:layout_height="18dp"
+
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="13dp"
+            android:gravity="center_vertical"
+
+            android:text="@string/payment_met"
+            android:textAppearance="@style/payment_met"
+            android:textSize="14sp"
+
+            />
+
+        <View
+            android:id="@+id/ellipse_24"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/ellipse_25" />
+
+        <ImageView
+            android:id="@+id/pm"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="0dp"
+
+            android:background="@drawable/credit_card"
+            android:clipToOutline="true" />
+
+        <View
+            android:id="@+id/pmm"
+            android:layout_width="5.5dp"
+            android:layout_height="10dp"
+            android:layout_marginStart="292dp"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/more"
+            android:foregroundGravity="center_vertical" />
+
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/balance_group"
+        android:layout_width="312dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="402dp"
+        android:background="#00000000">
+
+
+        <TextView
+            android:id="@+id/balance"
+            android:layout_width="66dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="13dp"
+            android:gravity="center_vertical"
+            android:text="@string/balance"
+            android:textAppearance="@style/balance"
+            android:textSize="14sp" />
+
+        <View
+            android:id="@+id/ellipse_23"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/ellipse_25" />
+
+        <ImageView
+            android:id="@+id/balance_im"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/credit_card" />
+
+        <TextView
+            android:id="@+id/some_id"
+            android:layout_width="66dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="246dp"
+            android:layout_marginTop="13dp"
+            android:gravity="center_horizontal|top"
+            android:text="@string/some_id"
+            android:textAppearance="@style/some_id" />
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/trade_history_group"
+        android:layout_width="299.5dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="467dp"
+        android:background="#00000000">
+
+        <TextView
+            android:id="@+id/trade_history"
+            android:layout_width="91dp"
+            android:layout_height="18dp"
+
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="13dp"
+            android:gravity="center_vertical"
+            android:text="@string/trade_histo"
+            android:textAppearance="@style/trade_histo"
+            android:textSize="14sp"
+
+            />
+
+        <View
+            android:id="@+id/ellipse_22"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/ellipse_25" />
+
+        <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/th"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/credit_card"
+            android:clipToOutline="true" />
+
+        <View
+            android:id="@+id/thm"
+            android:layout_width="5.5dp"
+            android:layout_height="10dp"
+            android:layout_marginStart="292dp"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/more"
+            android:foregroundGravity="center_vertical" />
+
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/restore_pur_group"
+        android:layout_width="299.5dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="532dp"
+        android:background="#00000000">
+
+        <TextView
+            android:id="@+id/restore_pur"
+            android:layout_width="124dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="13dp"
+            android:gravity="center_vertical"
+            android:text="@string/restore_pur"
+            android:textAppearance="@style/restore_pur"
+            android:textSize="14sp"
+
+            />
+
+        <View
+            android:id="@+id/ellipse_21"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/ellipse_25" />
+
+        <View
+            android:id="@+id/restore_im"
+            android:layout_width="22dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/restore" />
+
+        <View
+            android:id="@+id/rpm"
+            android:layout_width="5.5dp"
+            android:layout_height="10dp"
+            android:layout_marginStart="292dp"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/more"
+            android:foregroundGravity="center_vertical" />
+
+
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/help"
+        android:layout_width="33dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="598dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/help"
+        android:textAppearance="@style/help"
+        android:textSize="14sp"
+
+        />
+
+    <View
+        android:id="@+id/ellipse_20"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="587dp"
+        android:background="@drawable/ellipse_25" />
+
+    <View
+        android:id="@+id/help_im"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="597dp"
+        android:background="@drawable/help" />
+
+
+    <FrameLayout
+        android:id="@+id/log_out_group"
+        android:layout_width="106dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="647dp"
+        android:background="#00000000">
+
+        <TextView
+            android:id="@+id/log_out"
+            android:layout_width="66dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="13dp"
+            android:gravity="center_vertical"
+            android:text="@string/log_out"
+            android:textAppearance="@style/log_out"
+            android:textSize="14sp"
+
+            />
+
+        <View
+            android:id="@+id/ellipse_19"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/ellipse_25" />
+
+        <ImageView
+            android:id="@+id/log_in"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/log_out"
+            android:clipToOutline="true" />
+
+    </FrameLayout>
+
+
+</FrameLayout>
